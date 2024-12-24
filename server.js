@@ -27,7 +27,7 @@ mongoose.connect(DB_URL).then(() =>
 
 
 app.get('/',(req,res)=>{
-    res.send("Server is Running on port 5000");
+    res.send("Server is Running");
 })
 
 
