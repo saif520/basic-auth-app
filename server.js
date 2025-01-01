@@ -27,7 +27,7 @@ mongoose.connect(DB_URL).then(() =>
 
 
 app.get('/',(req,res)=>{
-    res.send("Happy New Year");
+    res.send("Happy New Year 2025");
 })
 
 
